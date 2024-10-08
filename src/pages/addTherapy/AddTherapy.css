@@ -1,0 +1,67 @@
+.contenu{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin: auto;
+}
+
+.panel1{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.panel2{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: var(--Radius-sm, 8px);
+    background: var(--Colours-White, #FFF);
+}
+
+Typography{
+    align-self: stretch;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 19.6px */
+}
+
+.panel22{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Radius-sm, 8px);
+    align-self: stretch;
+}
+
+.Panel3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.btnSave{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: var(--Radius-xs, 4px);
+    opacity: 0.3;
+    background: var(--Primary, #F00);
+    margin-top: 140px;
+}
